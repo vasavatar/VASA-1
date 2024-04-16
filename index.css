@@ -1,0 +1,143 @@
+video.banner {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #363636;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.centered {
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  color: #3273dc;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-gap {
+  gap: 8px;
+}
+
+button {
+  outline: none;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 40px;
+  color: #fff;
+  background: #363636;
+  border-radius: 40px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+}
+
+button:hover {
+  background: #000;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 0em;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 0em;
+  margin-top: 1.5em;
+}
+
+#title-flex {
+  text-align: center;
+  max-width: 960px;
+  padding: 0 16px;
+  row-gap: 8px;
+}
+
+#abstract-flex {
+  max-width: 960px;
+  padding: 0 16px;
+}
+
+#sections {
+  width: calc(100vw - 16px);
+  max-width: 1280px;
+}
+
+#sections h3,
+#sections p {
+  width: 100%;
+  padding: 0 16px;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.responsive-image-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.responsive-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Ensure the image is displayed as a block element */
+  max-width: none;
+  /* Reset the max-width property */
+}
+
+.video-container {
+  overflow: hidden;
+}
+
+.video-container>video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  clip-path: inset(2px);
+  border-radius: 20px;
+}
+
+.video-slider {
+  width: 100%;
+}
